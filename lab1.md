@@ -71,7 +71,7 @@ Yes, this IS an error. `cat` concatenates the contents of FILES and displayes th
 ### Absolute path to the working directory right before command run: 
 `/workspaces/lecture1`
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
-I got this output because `cat` concatenates the contents of files and displays them, but I only gave it one file, "hi.txt". So it prints the contents of that file alone to the console.
+I got this output because `cat` concatenates the contents of files and displays them, but I only gave it one file, "hi.txt". So it prints the contents of that file alone.
 ### Is this an error?
 No, this is NOT an error.
 
