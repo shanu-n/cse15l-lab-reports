@@ -34,12 +34,12 @@ No, this is NOT an error.
 ### Absolute path to the working directory right before command run: 
 `/workspaces/lecture1`
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
-I got this output because `ls` now lists the contents/information located in the "messages" directory, which are the filenames stored in this directory. The tree structure for messages is:
+I got this output because `ls` now lists the contents/information located in the "messages" directory, which are the filenames stored in this directory. The tree structure for messages is:/
 `└── messages`\
     `├── en-us.txt`\
     `├── es-mx.txt`\
     `├── hi.txt`\
-    `└── zh-cn.txt`\
+    `└── zh-cn.txt`
 ### Is this an error?
 No, this is NOT an error.
     
