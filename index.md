@@ -36,10 +36,10 @@ No, this is NOT an error.
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
 I got this output because `ls` now lists the contents/information located in the "messages" directory, which are the filenames stored in this directory. The tree structure for messages is:\
 `└── messages`\
-    `├── en-us.txt`\
-    `├── es-mx.txt`\
-    `├── hi.txt`\
-    `└── zh-cn.txt`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`├── en-us.txt`\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`├── es-mx.txt`\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`├── hi.txt`\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`└── zh-cn.txt`
 ### Is this an error?
 No, this is NOT an error.
     
