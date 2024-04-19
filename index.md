@@ -8,7 +8,7 @@ No, this is NOT an error.
 
 ![Image](cd2.png)
 ### Absolute path to the working directory right before command run: 
-`/home/codespace`
+`/workspaces/lecture1`
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
 There was no output. That is an indication that `cd` successfully changed the working directory from the home directory to the "messages" directory. The path to the new directory was then `/workspaces/lecture1/messages`.
 ### Is this an error?
@@ -18,7 +18,7 @@ No, this is NOT an error.
 ### Absolute path to the working directory right before command run: 
 `/workspaces/lecture1/messages`
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
-I got this output because cd changes directories, and `/workspaces/lecture1/messages/hi.txt` does not point to a directory. So it cannot change directories based on the file path I gave it.
+I got this output because `cd` changes directories, and `/workspaces/lecture1/messages/hi.txt` does not point to a directory. So it cannot change directories based on the file path I gave it.
 ### Is this an error?
 Yes, this IS an error. `cd` changes DIRECTORIES, and hi.txt is a TEXT FILE, *not* a directory. It does not contain any other files within it. It is simply a text file, so this command fails.
 
@@ -35,11 +35,11 @@ No, this is NOT an error.
 `/workspaces/lecture1`
 ### Why I got that output (What was in the filesystem, what it meant to have no arguments): 
 I got this output because `ls` now lists the contents/information located in the "messages" directory, which are the filenames stored in this directory. The tree structure for messages is:
-`└── messages
-    ├── en-us.txt
-    ├── es-mx.txt
-    ├── hi.txt
-    └── zh-cn.txt`
+`└── messages`
+    `├── en-us.txt`
+    `├── es-mx.txt`
+    `├── hi.txt`
+    `└── zh-cn.txt`
 ### Is this an error?
 No, this is NOT an error.
     
