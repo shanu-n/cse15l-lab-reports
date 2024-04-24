@@ -7,7 +7,7 @@
 #### Which methods in your code are called?
 In this example, the method `handleRequest` is being called.
 #### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-*The Relevant Arguments:* \
+*The Relevant Arguments:* 
 1. The URL (specifically the path an query)\
 *The Relevant Fields:*
 1. `URI url`: This is the method’s only parameter, and it contains the URL of the page that we are using.
@@ -21,7 +21,7 @@ In this example, the method `handleRequest` is being called.
 #### Which methods in your code are called?
 In this example, the method `handleRequest` is being called.
 #### What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-*The Relevant Arguments:* \
+*The Relevant Arguments:* 
 1. The URL (specifically the path an query)\
 *The Relevant Fields:*
 1. `URI url`: This is the method’s only parameter, and it contains the URL of the page that we are using.
