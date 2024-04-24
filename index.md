@@ -2,8 +2,8 @@
 
 ### 1. The Code: (Credited to Skill Demo 1's `StringServer.java` and wavelet's `NumberServer.java` folder downloaded from Week 2's lab)
 
-<img src="ChatServerSS1.png" width="200" height="100"> 
-<img src="ChatServerSS2.png" width="200" height="100"> 
+<img src="ChatServerSS1.png" width="800" height="400"> 
+<img src="ChatServerSS2.png" width="800" height="400"> 
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
