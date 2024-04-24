@@ -64,6 +64,6 @@ ________________________________________________________________________________
 
 # Part 3: Some things I learned from Weeks 2 and 3
 
-Everything we learned in classes and labs about terminal commands and accessing remote servers was new to me, so I learned a lot. I learned, specifically, how to clone and make repositories, GitHub pages, how to edit and commit changes in GitHub, how to use various terminal commands including `ls` `cd` `pwd` `cat`, `echo`, and more! I also learned a little bit about shells and bash and what those are from lectures.
+Everything we learned in classes and labs about terminal commands and accessing remote servers was new to me, so I learned a lot. I learned, specifically, how to clone and make repositories, GitHub pages, how to edit and commit changes in GitHub, how to use various terminal commands including `ls` `cd` `pwd` `cat` `echo` and more! I also learned a little bit about shells and bash and what those are from lectures.
 
 
