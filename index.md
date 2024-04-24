@@ -3,7 +3,7 @@
 ### 1. The Code: (Credited to Skill Demo 1's `StringServer.java` and wavelet's `NumberServer.java` folder downloaded from Week 2's lab)
 
 <img src="ChatServerSS1.png" width="800" height="700"> 
-<img src="ChatServerSS2.png" width="800" height="200"> 
+<img src="ChatServerSS2.png" width="600" height="100"> 
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
