@@ -1,8 +1,8 @@
-# Part : Making a ChatServer!
-## The Code: (Credited to Skill Demo 1's `StringServer.java` and wavelet's `NumberServer.java` folder downloaded from Week 2's lab)
+# Part 1: Making a ChatServer!
+## 1. The Code: (Credited to Skill Demo 1's `StringServer.java` and wavelet's `NumberServer.java` folder downloaded from Week 2's lab)
 ![Image](ChatServerSS1.png)
 ![Image](ChatServerSS2.png)
-## `/add-message` Example 1:
+## 2. `/add-message` Example 1:
 ![Image](ChatServerMessage1.png)
 ### Which methods in your code are called?
 In this example, the method `handleRequest` is being called.
