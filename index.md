@@ -1,8 +1,9 @@
 # Part 1: Making a ChatServer!
 
 ### 1. The Code: (Credited to Skill Demo 1's `StringServer.java` and wavelet's `NumberServer.java` folder downloaded from Week 2's lab)
-<img src="image.png" width="200" height="100"> ![Image](ChatServerSS1.png)
-<img src="image.png" width="200" height="100"> ![Image](ChatServerSS2.png)
+
+<img src="ChatServerSS1.png" width="200" height="100"> 
+<img src="ChatServerSS2.png" width="200" height="100"> 
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
