@@ -18,7 +18,11 @@ In this example, the method `handleRequest` is being called.
 3. `String[] parameters`: An array of strings used to store the split-up parts of the query part of the URL.
 4. `String records`: A string variable which logs the conversations (each `/add-message` that happens) on the server.
 #### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-`StringBuilder builder`, `ArrayList<String> conversations`, and `String records` all change from this request. `StringBuilder builder` is initialized as an empty object, and then it is appended to, so it changes. The ArrayList that is not in the method but within the class, `ArrayList<String> conversations`, stores the messages in parts, so it also changes from being empty to containing the chat that is appended to it. `String records` stores all the messages from `conversations` as a single string, and as of now, it has one chat: `Shanu: Hi! This is Shanu's ChatServer!`, so it also changed.
+`StringBuilder builder`, `ArrayList<String> conversations`, and `String records` all change from this request. `StringBuilder builder` is initialized as an empty object, and then it is appended to, so it changes. The ArrayList that is not in the method but within the class, `ArrayList<String> conversations`, stores the messages in parts, so it also changes from being empty to containing the chat that is appended to it. `String records` stores all the messages from `conversations` as a single string, and as of now, it has one chat: 
+
+`Shanu: Hi! This is Shanu's ChatServer!`
+
+So it also changed.
 ____________________________________________________________________________________________________________________________________________________________________________________________
 ### 3. `/add-message` Example 2:
 ![Image](ChatServerMessage2.png)
@@ -34,7 +38,7 @@ In this example, the method `handleRequest` is being called.
 3. `String[] parameters`: An array of strings used to store the split-up parts of the query part of the URL.
 4. `String records`: A string variable which logs the conversations (each `/add-message` that happens) on the server.
 #### How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-`StringBuilder builder`, `ArrayList<String> conversations`, and `String records` all change from this request. `StringBuilder builder` is initialized as an empty object, and then it is appended to, so it changes. The ArrayList that is not in the method but within the class, `ArrayList<String> conversations`, stores the messages in parts, so it also changes from containing only the first chat to containing the new one as well. `String records` stores all the messages from `conversations` as a single string, so now it has 2 chats:\
+`StringBuilder builder`, `ArrayList<String> conversations`, and `String records` all change from this request. `StringBuilder builder` is initialized as an empty object, and then it is appended to, so it changes. The ArrayList that is not in the method but within the class, `ArrayList<String> conversations`, stores the messages in parts, so it also changes from containing only the first chat to containing the new one as well. `String records` stores all the messages from `conversations` as a single string, so now it has 2 chats:
 
 `Shanu: Hi! This is Shanu's ChatServer!`\
 `Also Shanu: This works!`\
