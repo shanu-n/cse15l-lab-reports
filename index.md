@@ -41,7 +41,7 @@ In this example, the method `handleRequest` is being called.
 `StringBuilder builder`, `ArrayList<String> conversations`, and `String records` all change from this request. `StringBuilder builder` is initialized as an empty object, and then it is appended to, so it changes. The ArrayList that is not in the method but within the class, `ArrayList<String> conversations`, stores the messages in parts, so it also changes from containing only the first chat to containing the new one as well. `String records` stores all the messages from `conversations` as a single string, so now it has 2 chats:
 
 `Shanu: Hi! This is Shanu's ChatServer!`\
-`Also Shanu: This works!`\
+`Also Shanu: This works!`
 
 So, this also changes.
 
