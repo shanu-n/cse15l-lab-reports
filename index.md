@@ -44,7 +44,26 @@ In this example, the method `handleRequest` is being called.
 `Also Shanu: This works!`
 
 So, this also changes.
+____________________________________________________________________________________________________________________________________________________________________________________________
 
+# Part 2: Command Line
 
+### 1. On the command line of your computer, run `ls` with the absolute path to the private key for your SSH key for logging into ieng6.
+
+![Image](ls-private-local.png)
+
+### 2. On the command line of the ieng6 machine, run `ls` with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).
+
+![Image](ls-public-remote.png)
+
+### 3. A terminal interaction where you log into your ieng6 account without being asked for a password.
+
+![Image](ssh-no_password.png)
+
+____________________________________________________________________________________________________________________________________________________________________________________________
+
+# Part 3: Some things I learned from Weeks 2 and 3
+
+Everything we learned in classes and labs about terminal commands and accessing remote servers was new to me, so I learned a lot. I learned, specifically, how to clone and make repositories, GitHub pages, how to edit and commit changes in GitHub, how to use various terminal commands including `ls` `cd` `pwd` `cat`, `echo`, and more! I also learned a little bit about shells and bash and what those are from lectures.
 
 
