@@ -66,7 +66,7 @@ ________________________________________________________________________________
 - `-N` will display line numbers while you are viewing a file
 - `-i` will find and show all occurrences of the term (regardless of whether the case matched) in the file
 - `+/<pattern>` will start the `less` command after it finds the first occurrence of the pattern I enter into the parameter in the file
-- `h <number>` configures the number of lines shown simultaneously from my file, using my provided number as the parameter
+- `%<percent>` will show you the text starting from the specific percentage of the file that you put into the percent parameter
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
