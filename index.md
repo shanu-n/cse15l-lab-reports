@@ -62,6 +62,7 @@ ________________________________________________________________________________
 # Part 2 - Researching Commands
 
 ## The command I picked is `less`. The 4 interesting command-line options I want to test are: `-N`, `-i`, `+/<pattern>`, and `-S`
+
 - `-N` will display line numbers while you are viewing a file
 - `-i` will find and show all occurrences of the term (regardless of whether the case matched) in the file
 - `+/<pattern>` will start the `less` command after it finds the first occurrence of the pattern I enter into the parameter in the file
@@ -168,6 +169,7 @@ ________________________________________________________________________________
 1. find command-line options for `less`
 
 ## What its output was and how I changed the output after it was produced:
+```
 1. Here are some common command-line options for the less command:
   -N: Display line numbers.\n
   -i: Ignore case in searches.\n
@@ -179,5 +181,6 @@ ________________________________________________________________________________
   -h <number>: Set the number of lines displayed at a time.\n
   --version: Display version information.\n
 These are just a few options; there are many more available. You can explore them further by checking the manual page (man less).
+```
 
 - I ended up using `man less` in terminal like it suggested, and discovered `+/<pattern>` and wanted to try it too.
