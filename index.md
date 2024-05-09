@@ -144,7 +144,7 @@ ________________________________________________________________________________
 
 ### Example 1: 
 
-Command: `less ./technical/plos/journal.pbio.0020071.txt`\n
+Command: `less ./technical/plos/journal.pbio.0020071.txt`/n
 Second Command once we enter `less`: `30%`.
 
 Output: ![Image](command4ex1.png)
@@ -153,7 +153,7 @@ Description: the `less` command-line option allows me to see my file's contents 
 
 ### Example 2:
 
-Command: `less ./technical/911report/preface.txt`\n
+Command: `less ./technical/911report/preface.txt`/n
 Second Command once we enter `less`: `70%`.
 
 Output: ![Image](command4ex2.png)
