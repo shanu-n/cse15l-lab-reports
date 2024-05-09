@@ -1,31 +1,32 @@
 # Part 1 - Bugs
 
 ## The program has a bug in the `reverseInPlace` method found in ArrayExamples.java:
-
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`
+  }
+```
 
 ## A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown).
-
-`@Test
+```
+@Test
   public void testReverseInPlace1() {
   int[] input1 = {2, 4, 6, 8};
   ArrayExamples.reverseInPlace(input1);
   assertArrayEquals(new int[]{8, 6, 4, 2}, input1);
-  }`
-
+  }
+```
 ## An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown).
-
-`@Test
+```
+@Test
   public void testReverseInPlace2() {
   int[] input1 = {10};
   ArrayExamples.reverseInPlace(input1);
   assertArrayEquals(new int[]{10}, input1);
-  }`
-
+  }
+```
 ## The symptom, as the output of running the two tests above (provide it as a screenshot -- one test should pass, one test should fail).
 
 ![Image](symptomlab3.png)
@@ -33,21 +34,24 @@
 ## The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown).
 
 ### Before the bug is fixed:\n
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`
+  }
+```
 
 ### After the bug is fixed:\n
-
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
   for (int i = 0; i < arr.length / 2; i++) {
     int temp = arr[i];
     arr[i] = arr[arr.length - i - 1];
     arr[arr.length - i - 1] = temp;
   }
-}`
+}
+```
 
 ## Briefly describe (2-3 sentences) why the fix addresses the issue.
 
@@ -62,7 +66,7 @@ ________________________________________________________________________________
 - `-i` will find and show all occurrences of the term (regardless of whether the case matched) in the file
 - `+/<pattern>` will start the `less` command after it finds the first occurrence of the pattern I enter into the parameter in the file
 - `h <number>` configures the number of lines shown simultaneously from my file, using my provided number as the parameter
-- 
+
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## `less -N filename` in `./technical`:
