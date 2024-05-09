@@ -61,7 +61,7 @@ ________________________________________________________________________________
 
 # Part 2 - Researching Commands
 
-## The command I picked is `less`. The 4 interesting command-line options I want to test are: `-N`, `-i`, `+/<pattern>`, and `-S`
+## The command I picked is `less`. The 4 interesting command-line options I want to test are: `-N`, `-i`, `+/<pattern>`, and `%<percent>`
 
 - `-N` will display line numbers while you are viewing a file
 - `-i` will find and show all occurrences of the term (regardless of whether the case matched) in the file
