@@ -17,11 +17,11 @@
 ## Commands: `ls <enter> vim <space> ListExamples.java <enter> <up><up><up><up><right><right><right><right><right><right><right><right><right><right><right><right> <i> <backspace> 2 <esc> :wq <enter>`
 ![Image](step7-1.png)
 ![Image](step7-2.png)
-`ls` shows us the contents of the directory
-`vim ListExamples.java` opens `ListExamples.java` in the Vim text editor in normal mode
-`i` switches the mode to insert mode, allowing us to modify the text
-`<up <right>` allow us to move up and right through the lines of the file, till we get to `index1` and change it to `index2`
-`<esc>` exits insert mode
+`ls` shows us the contents of the directory\
+`vim ListExamples.java` opens `ListExamples.java` in the Vim text editor in normal mode\
+`i` switches the mode to insert mode, allowing us to modify the text\
+`<up <right>` allow us to move up and right through the lines of the file, till we get to `index1` and change it to `index2`\
+`<esc>` exits insert mode\
 `:wq` saves changes and exits vim, returning us to the terminal
 
 # Step 8: 
@@ -33,9 +33,9 @@
 ## Commands: `git <space> add  <space> . <enter> git <space> commit <space> -m <space> "changed the error" <enter> git <space> push <enter> <username> <enter> <personal access token> <enter>`
 ![Image](step9-1.png)
 ![Image](step9-2.png)
-`git add .` adds all the changes
-`git commit -m "changed the error"` commits the changes and adds this message with the commit
-`git push` pushes the changes to the remote lab7 repo
+`git add .` adds all the changes\
+`git commit -m "changed the error"` commits the changes and adds this message with the commit\
+`git push` pushes the changes to the remote lab7 repo\
 `<username> <personal access token>` are for authentication before pushing to remote repo.
 
 
