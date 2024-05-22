@@ -29,7 +29,7 @@
 ![Image](step8.png)
 `<up><up><up><up>` because the `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 4 up in the search history, then `<up><up><up><up>` again because `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 4 up in the history too.
 
-#Step 9:
+# Step 9:
 ## Commands: `git <space> add  <space> . <enter> git <space> commit <space> -m <space> "changed the error" <enter> git <space> push <enter> <username> <enter> <personal access token> <enter>`
 ![Image](step9-1.png)
 ![Image](step9-2.png)
